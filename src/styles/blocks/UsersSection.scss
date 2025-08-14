@@ -1,0 +1,17 @@
+.users-section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+  align-items: center;
+
+  &__title {
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+  &__btn {
+    width: 120px;
+    height: 34px;
+  }
+}

@@ -1,0 +1,17 @@
+.users-list {
+  --column-count: 1;
+
+  display: grid;
+  grid-template-columns: repeat(var(--column-count), 1fr);
+  gap: 16px;
+  width: 100%;
+
+  @include on-tablet {
+    --column-count: 2;
+  }
+
+  @include on-desktop {
+    --column-count: 3;
+    gap: 29px;
+  }
+}
